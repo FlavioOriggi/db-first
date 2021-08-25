@@ -1,0 +1,17 @@
+Auto usate
+
+Auto_id: BIGINT primary_key AUTO_INCREMENT
+Casa_produttrice: VARCHAR(20) NOT_NULL
+Modello: VARCHAR(20) NOT_NULL
+Cilindrata: UNSIGNED INT 
+Anno: YEAR NOT_NULL
+Numero_proprietari: TINYINT
+Km_percorsi: UNSIGNED INT NOT_NULL
+Colore: VARCHAR(30) NOT_NULL
+Alimentazione: VARCHAR(20) NOT_NULL
+Tipologia_trasmissione: VARCHAR(20) NOT_NULL
+Numero_portiere: TINYINT
+Numero_posti: TINYINT
+Descrizione: TEXT 
+Optional: TEXT 
+Prezzo: UNSIGNED INT NOT_NULL
